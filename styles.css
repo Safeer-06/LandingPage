@@ -1,0 +1,264 @@
+body {
+    max-width: 1440px;
+    margin: auto;
+}
+.topsection {
+    height: 842px;
+    position: relative;
+}
+.topsectionnav {
+    display: flex;
+    column-gap: 45px;
+    padding: 29px 139px;
+    justify-content: flex-end;
+
+}
+
+.topsectionnav .active {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 8px;
+}
+
+.topsectionnav div {
+    color: #000000;
+    font-size: 13px;
+    font-family: 'DM Sans';
+}
+
+.topsectionbox {
+    padding: 139px 41px 0px 135px;
+    position: relative;
+}
+.bottomsection {
+    padding: 229px 41px 0px 135px;
+}
+
+.heading {
+    font-size: 22px;
+    font-family: 'DM Sans';
+    color: #ff9900;
+    font-weight: bold;
+}
+
+.tag {
+    font-size: 54px;
+    color: #000000;
+    margin-top: 28px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.paragraph {
+    color: #31353b;
+    font-size: 17px;
+    font-family: 'Manrope', sans-serif;
+    margin-top: 25px;
+}
+.inputbox {
+    display: flex;
+    margin-top: 49px;
+}
+
+.inputbox button {
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Manrope', sans-serif;
+    width: 189px;
+    background-color: #f85a47;
+    height: 87px;
+    color: #ffffff;
+    z-index: 1;
+    border: none;
+}
+
+.inputcontainer {
+    position: relative;
+}
+
+.inputcontainer input {
+    width: 568px;
+    height: 87px;
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+    border: 1px solid #dadada;
+    padding-left: 74px;
+    box-sizing: border-box;
+    opacity: 0.3;
+}
+
+.sectionimagecontainer {
+    position: absolute;
+    bottom: -110px;
+    left: 568px;
+}
+
+.inputimagecontainer {
+    position: absolute;
+    top: 33px;
+    left: 33px;
+}
+
+.bluebgimage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.socialmediaicons {
+    position: absolute;
+    right: 30px;
+    bottom: 280px;
+}
+
+.microsofticon {
+    width: 450px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 70px;
+}
+
+.partnerstag {
+    font-size: 17px;
+    font-family: 'Manrope', sans-serif;
+    color: #31353b;
+    margin-top: 8px;
+}
+
+.partners {
+    margin-top: 31px;
+}
+
+.middlesection {
+    padding-top: 223px;
+    padding-right: 170px;
+    padding-left: 170px;
+}
+
+.sectionheading {
+    font-size: 40px;
+    font-family: 'Manrope', sans-serif;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instructionsbox {
+    margin-top: 81px;
+    display: flex;
+    gap: 176px;
+    justify-content: center;
+    align-items: center;
+}
+.iconcontainer {
+    position: relative;
+}
+.seperatorbox {
+    position: absolute;
+    left: 205px;
+    top: 40px;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.descriptionsbox {
+    margin-top: 49px;
+    gap: 176px;
+}
+
+.description {
+    text-align: center;
+}
+
+.descriptionheading {
+    color: #000000;
+    font-size: 22px;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+}
+
+.descriptiontext {
+    font-size: 16px;
+    color: #333333;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+.headersection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headingbottomsection {
+    font-size: 40px;
+    font-family: 'Manrope', sans-serif;
+    color: #000000;
+}
+
+.headerbutton button {
+    font-family: 'Manrope', sans-serif;
+    font-size: 17px;
+    background-color: #f85a47;
+    color: #ffffff;
+    width: 201px;
+    height: 66px;
+    border: none;
+    border-radius: 6px;
+}
+
+.paragraphbottomsection {
+    padding-top: 26px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+.navbarsectionbottom {
+    display: flex;
+    gap: 57px;
+    margin-top: 52px;
+}
+
+.navbarsectionbottom div {
+    font-family: 'Manrope', sans-serif;
+    font-size: 19px;
+    padding-bottom: 11px;
+}
+
+.navbarsectionbottom .activenav {
+    border-bottom: 1px solid #f85a47;
+    color: #f85a47;
+}
+
+.houseimages {
+    gap: 29px;
+    display: flex;
+    margin-top: 43px;
+}
+
+.houseimage {
+    position: relative;
+}
+
+.firsttag {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+}
+
+.secondtag {
+    position: absolute;
+    top: 14px;
+    left: 95px;
+}
+
+.sliderarrows {
+    display: flex;
+    position: absolute;
+    right: 130px;
+    bottom: 42px;
+    gap: 41px;
+}
